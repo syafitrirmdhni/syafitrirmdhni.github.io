@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Profile Fitri</title>
+    <link rel="shortcut icon" href="img/Pic-favicon.jpg" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg my-navbar sticky-top navbar-dark">
+        <div class="container">
+          <div class="navbar-brand" style="font-size: 1.7rem;"><i class="bi bi-gem icon"></i> SyafitriRmdhni</div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#article">Article</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- End Navbar Section -->
+
+<!-- Heroes Section -->
+<div class="container heroes">
+  <div class="row">
+    <div class="col-md-6 d-flex align-content-center justify-content-center" style="margin-bottom: 1rem;" data-aos="fade-up-right" data-aos-duration="2000">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner pic">
+          <div class="carousel-item active">
+            <img src="img/Pic-sunset (6).jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Purple Sky</h5>
+              <p>Sunday, 24 March 2019</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Pic-flower (9).jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">  
+              <h5>Komplek Pinang Baris Permai</h5>
+              <p>Saturday, 08 February 2020</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/Pic-carousel3.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Simarjarunjung Hound Sky</h5>
+              <p>Sunday, 27 June 2021</p>
+            </div>
+          </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-md-6 desc m-auto" data-aos="fade-up-left" data-aos-duration="2000">
+      <h1><b>Welcome to this Website!</b></h1>
+        <p>Ini merupakan website yang berisi foto dan beberapa informasi mengenai <b>Syafitri Ramadhani.</b> Setelah membaca keseluruhan website ini anda akan mengenal saya lebih baik. 
+        Ayo mengenal lebih dalam siapa itu <b>Syafitri Ramadhani.</b>
+        </p>
+        <div class="d-flex justify-content-center" data-aos="fade-left" data-aos-duration="3000">
+          <a href="#about" class="btn btn-more" onclick="hello()">Let's Go!!</a> 
+          <!-- mau buat js alert di tombol lets go -->
+        </div>
+    </div>
+  </div>
+</div>
+<!-- End Heroes Section -->
+
+<!-- About Section -->
+<section id="about" class="container">
+  <div class="row">
+    <!-- About Title -->
+    <div class="col section-title" data-aos="fade-up" data-aos-duration="1000">About Me</div>
+  </div>
+  <!-- introduction -->
+  <div class="row bg-pastel-blue" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="250">
+    <div class="col-md-8">
+      <h5><b>Introduction</b></h5>
+    <p style="text-indent: 2rem; text-align: justify;">
+      Halo, nama saya Syafitri Ramadhani. Saya adalah seorang pecinta seni yang juga memiliki ketertarikan dalam teknologi. Saya lahir dan besar dalam keluarga yang hangat, dan saya percaya bahwa nilai-nilai keluarga sangat penting dalam hidup. Saya senang melukis, bernyanyi, dan eksplorasi dalam dunia pemrograman. Pendidikan dan pengembangan diri adalah prioritas saya, dan saya percaya bahwa dengan semangat dan kerja keras, kita bisa mencapai apa pun yang kita inginkan dalam hidup. Terima kasih telah mengenal saya!
+    </p>
+    </div>
+    <div class="col d-flex justify-content-center align-content-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="750">
+      <img src="/img/Pic-profilCut.png" alt="" class="img-thumbnail w-50 rounded-circle m-3 shadow" data-tilt>
+    </div>
+  </div>
+  <!-- Experience and Skill -->
+  <div class="row bg-pastel-pink" data-aos="zoom-in" data-aos-duration="1000">
+    <h5><b>Experience and Skill</b></h5>
+    <!-- Experience -->
+    <div class="col-md-8">
+      <!-- &lpar;&rpar; -->
+      <ul> 
+        -Organisasi-
+        <li>Remaja Mesjid Al - Hafidz &lpar;Bendahara&lpar;2017&rpar;, Sekretaris&lpar;2018&rpar;, Wakil Ketua&lpar;2019&rpar;&rpar;</li>
+        <li>Programmer Association of Battuta &lpar;Ketua Humas&lpar;2021-2023&rpar;&rpar;</li>
+        <br>
+        -Pengalaman-
+        <li>PKL di Dinas Kependudukan dan Pencatatan Sipil Provinsi Sumatera Utara &lpar;2020&rpar;</li>
+        <li>PKL di Percetakan Berkah &lpar;2021&rpar;</li>
+        <li>Bekerja di Yayasan Perguruan Ahsan Syamil &lpar;2021-2022&rpar;</li>
+      </ul>
+    </div>
+    <!-- Skill -->
+    <div class="col d-flex justify-content-center align-content-center" data-aos="flip-left" data-aos-delay="800" data-aos-duration="1000">
+      <div class="card">
+        <div class="header">My Skills</div>
+        <div class="body">
+          <div class="skill">
+            <div class="skill-name">Kinemaster</div>
+            <div class="skill-level">
+              <div class="skill-percent" style="width: 90%"></div>
+            </div>
+            <div class="skill-percent-number">90%</div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Capcut</div>
+            <div class="skill-level">
+              <div class="skill-percent" style="width: 75%"></div>
+            </div>
+            <div class="skill-percent-number">75%</div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Canva</div>
+            <div class="skill-level">
+              <div class="skill-percent" style="width: 80%"></div>
+            </div>
+            <div class="skill-percent-number">80%</div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Photoshop</div>
+            <div class="skill-level">
+              <div class="skill-percent" style="width: 75%"></div>
+            </div>
+            <div class="skill-percent-number">75%</div>
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- Certificate -->
+  <div class="row bg-pastel-blue" data-aos="zoom-in" data-aos-duration="1000">
+    <h5><b>Certificate</b></h5>
+    <!-- Sertifikat 1 -->
+    <div class="col-md-4 d-flex justify-content-center align-content-center" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500" style="margin-top: 1rem;">
+      <div class="card" style="width: 20rem;">
+        <img src="img/Pic-Sertifikat1.jpeg" class="card-img-top img-thumbnail" alt="Sertifikat Kompetensi Kelulusan" data-tilt> 
+        <div class="card-body">
+          <p class="card-text">Sertifikat Kompetensi Kelulusan</p>
+          <p style="text-align: justify;">Sertifikat ini saya dapatkan ketika saya telah lulus dari kelas Pemrograman Desktop pada organisasi Pro.asta di tahun 2022.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Sertifikat 2 -->
+    <div class="col-md-4 d-flex justify-content-center align-content-center" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1000" style="margin-top: 1rem;">
+      <div class="card" style="width: 20rem;">
+        <img src="img/Pic-sertifikat2.jpeg" class="card-img-top img-thumbnail" alt="Sertifikat Kompetisi Visual Rempah" data-tilt>
+        <div class="card-body">
+          <p class="card-text">Kompetisi Visual Rempah</p>
+          <p style="text-align: justify;">Sertifikat ketika saya mengikuti perlombaan Design Visual Rempah yang diselenggarakan oleh KemDikBud di tahun 2020.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Sertifikat 3 -->
+    <div class="col-md-4 d-flex justify-content-center align-content-center" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1500" style="margin-top: 1rem;">
+      <div class="card" style="width: 20rem;">
+        <img src="img/Pic-sertifikat3.jpeg" class="card-img-top img-thumbnail" alt="Sertifikat Kursus Sololearn" data-tilt>
+        <div class="card-body">
+          <p class="card-text">Kursus Sololearn</p>
+          <p style="text-align: justify;">Sertifikat ini merupakan sertifikat kelulusan setelah menyelesaikan kelas kursus HTML di aplikasi Sololearn pada tahun 2022.</p>
+        </div>
+      </div>
+    </div>
+<!-- end sertifikat -->
+  </div>
+
+</section>
+<!-- End About Section -->
+
+<!-- Services Section -->
+<section id="services" class="container">
+  <div class="row">
+    <!-- Services Title  -->
+    <div class="col section-title" data-aos="fade-up" data-aos-duration="1000">Services</div>
+  </div>
+  <div class="row service">
+    <!-- Service1 -->
+    <div class="col-md d-flex justify-content-center align-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <p class="title"><i class="bi bi-camera-reels-fill"></i> Edit Video</p>
+            </div>
+            <div class="flip-card-back">
+              <p></p>
+              <p>Menerima jasa edit video dengan harga terjangkau.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service2 -->
+    <div class="col-md d-flex justify-content-center align-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p class="title"><i class="bi bi-camera-fill"></i> Photography</p>
+            </div>
+            <div class="flip-card-back">
+              <p></p>
+              <p>Menerima jasa Photography diberbagai acara/kegiatan.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service3 -->
+    <div class="col-md d-flex justify-content-center align-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p class="title"><i class="bi bi-keyboard-fill"></i> Jasa Ketik</p>
+            </div>
+            <div class="flip-card-back">
+              <p></p>
+              <p>Menerima jasa ketik berbagai berkas.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service4 -->
+    <div class="col-md d-flex justify-content-center align-content-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p class="title"><i class="bi bi-palette-fill"></i> Design Graphic</p>
+            </div>
+            <div class="flip-card-back">
+              <p></p>
+              <p>Menerima jasa Design poster, spanduk, Dll.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+<!-- end row -->
+  </div>
+</section>
+<!-- End Services Section -->
+
+<!-- Gallery Section -->
+  <div class="container" id="gallery">
+    <div class="col section-title" data-aos="fade-up" data-aos-duration="1000">Gallery</div>
+    <!-- Filter Buttons -->
+    <div class="filter_buttons" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+      <button class="active" data-name="all">Show all</button>
+      <button data-name="flower">Flower</button>
+      <button data-name="lamp">Lamp</button>
+      <button data-name="sky">Sky</button>
+      <button data-name="sunset">Sunset</button>
+      <button data-name="view">View</button>  
+    </div>
+    <!-- Image Cards -->
+    <div class="filterable_cards" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+      <!-- pic1 -->
+      <div class="card" data-name="flower">
+        <img src="img/Pic-flower (1).jpg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Bunga Kamboja Bali</h6>
+        <p class="card-text">09 June 2021</p>
+      </div>
+      </div>
+      <!-- pic2 -->
+      <div class="card" data-name="sunset">
+        <img src="img/Pic-sunset (1).jpg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Pelabuhan Perlis</h6>
+        <p class="card-text">02 August 2021</p>
+      </div>
+      </div>
+      <!-- pic3 --> 
+      <div class="card" data-name="flower">
+        <img src="img/Pic-flower (5).jpg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Bunga Amarilis Merah</h6>
+        <p class="card-text" >30 December 2018</p>
+      </div>
+      </div>
+      <!-- pic4 -->
+      <div class="card" data-name="view">
+        <img src="img/Pic-view (8).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title" style="text-align: center;">Simarjarunjung Hound Sky</h6>
+        <p class="card-text">27 June 2021</p>
+      </div>
+      </div>
+      <!-- pic5 -->
+      <div class="card" data-name="sky">
+        <img src="img/Pic-sky (3).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Wavy Cloud</h6>
+        <p class="card-text">17 September 2023</p>
+      </div>
+      </div>
+      <!-- pic6 -->
+      <div class="card" data-name="lamp">
+        <img src="img/Pic-lamp (1).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Amor Steak</h6>
+        <p class="card-text">15 July 2022</p>
+      </div>
+      </div>
+      <!-- pic7 -->
+      <div class="card" data-name="sunset">
+        <img src="img/Pic-sunset (2).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Langit Senja Univ. Battuta</h6>
+        <p class="card-text">16 September 2023</p>
+      </div>
+      </div>
+      <!-- pic8 -->
+      <div class="card" data-name="view">
+        <img src="img/Pic-view (4).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">View Kaki Gunung Sinabung</h6>
+        <p class="card-text">26 December 2021</p>
+      </div>
+      </div>
+      <!-- pic9 -->
+      <div class="card" data-name="lamp">
+        <img src="img/Pic-lamp (2).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Kesawan</h6>
+        <p class="card-text">28 January 2023</p>
+      </div>
+      </div>
+      <!-- pic10 -->
+      <div class="card" data-name="flower">
+        <img src="img/Pic-flower (2).jpg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Bunga Bakung Lele</h6>
+        <p class="card-text">06 June 2022</p>
+      </div>
+      </div>
+      <!-- pic11 -->
+      <div class="card" data-name="view">
+        <img src="img/Pic-view (1).jpg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Taman USU</h6>
+        <p class="card-text">20 February 2020</p>
+      </div>
+      </div>
+      <!-- pic12 -->
+      <div class="card" data-name="sky">
+        <img src="img/Pic-sky (1).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Langit Tangkahan Durian</h6>
+        <p class="card-text">26 March 2023</p>
+      </div>
+      </div>
+      <!-- pic13 -->
+      <div class="card" data-name="flower">
+        <img src="img/Pic-flower (10).jpg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Bunga Bakung Lele &lpar;2&rpar;</h6>
+        <p class="card-text">08 June 2022</p>
+      </div>
+      </div>
+      <!-- pic14 -->
+      <div class="card" data-name="sunset">
+        <img src="img/Pic-sunset (3).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Pelabuhan Perlis dan Nelayan</h6>
+        <p class="card-text">02 August 2021</p>
+      </div>
+      </div>
+      <!-- pic15 -->
+      <div class="card" data-name="sky">
+        <img src="img/Pic-sky (2).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Blue Sky</h6>
+        <p class="card-text">27 August 2023</p>
+      </div>
+      </div>
+      <!-- pic16 -->
+      <div class="card" data-name="flower">
+        <img src="img/Pic-flower (7).jpg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Bunga Amarilis Orange</h6>
+        <p class="card-text">26 December 2018</p>
+      </div>
+      </div>
+      <!-- pic17 -->
+      <div class="card" data-name="view">
+        <img src="img/Pic-view (2).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Kafe Keboen Binjai</h6>
+        <p class="card-text">31 July 2021</p>
+      </div>
+      </div>
+      <!-- pic18 -->
+      <div class="card" data-name="sunset">
+        <img src="img/Pic-sunset (4).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Purple Sky</h6>
+        <p class="card-text">13 June 2022</p>
+      </div>
+      </div>
+      <!-- pic19 -->
+      <div class="card" data-name="view">
+        <img src="img/Pic-view (3).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Pelabuhan Belawan</h6>
+        <p class="card-text">01 August 2021</p>
+      </div>
+      </div>
+      <!-- pic20 -->
+      <div class="card" data-name="flower">
+        <img src="img/Pic-flower (6).jpg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Bunga Zinnia Kuning</h6>
+        <p class="card-text">26 December 2018</p>
+      </div>
+      </div>
+      <!-- pic21 -->
+      <div class="card" data-name="sunset">
+        <img src="img/Pic-sunset (7).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Lab. Pro.Asta Lt.5 Univ. Battuta</h6>
+        <p class="card-text">19 August 2023</p>
+      </div>
+      </div>
+      <!-- pic22 -->
+      <div class="card" data-name="flower">
+        <img src="img/Pic-flower (3).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Bunga Bakung Lele &lpar;3&rpar;</h6>
+        <p class="card-text">15 June 2022</p>
+      </div>
+      </div>
+      <!-- pic23 -->
+      <div class="card" data-name="view">
+        <img src="img/Pic-view (7).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Bukit Indah Simarjarunjung</h6>
+        <p class="card-text">27 June 2021</p>
+      </div>
+      </div>
+      <!-- pic24 -->
+      <div class="card" data-name="view">
+        <img src="img/Pic-view (5).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Kolam Berenang Pantai Cermin</h6>
+        <p class="card-text">15 June 2022</p>
+      </div>
+      </div>
+      <!-- pic25 -->
+      <div class="card" data-name="sky">
+        <img src="img/Pic-sky (4).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Jl. Pinang Baris</h6>
+        <p class="card-text">06 September 2023</p>
+      </div>
+      </div>
+      <!-- pic26 -->
+      <div class="card" data-name="flower">
+        <img src="img/Pic-flower (4).jpg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Bunga Mawar Putih</h6>
+        <p class="card-text">30 December 2018</p>
+      </div>
+      </div>
+      <!-- pic27 -->
+      <div class="card" data-name="sunset">
+        <img src="img/Pic-sunset (6).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Purple Sky &lpar;2&rpar;</h6>
+        <p class="card-text">24 March 2019</p>
+      </div>
+      </div>
+      <!-- pic28 -->
+      <div class="card" data-name="sunset">
+        <img src="img/Pic-sunset (5).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Senja dirumahku</h6>
+        <p class="card-text">13 November 2019</p>
+      </div>
+      </div>
+      <!-- pic29 -->
+      <div class="card" data-name="view">
+        <img src="img/Pic-view (6).jpeg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Kafe Keboen Binjai</h6>
+        <p class="card-text">31 July 2021</p>
+      </div>
+      </div>
+      <!-- pic30 -->
+      <div class="card" data-name="view">
+        <img src="img/Pic-sunset (8).jpg" alt="">
+      <div class="card-body" style="text-align: center;">
+        <h6 class="card-title">Lab. Pro.Asta Lt.5 Univ. Battuta</h6>
+        <p class="card-text">16 September 2023</p>
+      </div>
+      </div>
+
+    </div>
+
+  </div>
+<!-- End Gallery Section -->
+
+<!-- Article Section -->
+<div class="container" id="article">
+  <div class="row" data-aos="fade-up" data-aos-duration="1000">
+    <div class="col section-title">
+      Article
+    </div>
+  </div>
+  <div class="row">
+    <!-- Article 1 -->
+    <div class="col d-flex justify-content-center align-content-center"  data-aos="zoom-in" data-aos-duration="1000">
+      <div class="card">
+        <div class="card__corner"></div>
+        <div class="card__img">
+          <span class="card__span"><i class="bi bi-bookmark-heart"></i> Food</span>
+        </div>
+        <div class="card-int">
+          <p class="card-int__title">Berbahaya nya Junk Food bagi kesehatan</p>
+          <p class="excerpt">Sejumlah penelitian telah membuktikan bahwa keseringan mengonsumsi makanan cepat saji saja memang tidak berdampak secara langsung ke tubuh.</p>
+          <a href="article1.html"><button class="card-int__button">Show</button></a>
+        </div>
+      </div>
+    </div>
+    <!-- Article 2 -->
+    <div class="col d-flex justify-content-center align-content-center"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+      <div class="card">
+        <div class="card__corner"></div>
+        <div class="card__img2">
+          <span class="card__span"><i class="bi bi-bookmark-heart"></i> Technology</span>
+        </div>
+        <div class="card-int">
+          <p class="card-int__title">Pentingnya Teknologi untuk Kehidupan</p>
+          <p class="excerpt">Contoh nyata perkembangan teknologi dapat kita temukan dalam kehidupan sehari-hari. Bahkan, tidak jarang kita juga menggunakan atau memanfaatkannya.</p>
+          <a href="article2.html"><button class="card-int__button">Show</button></a>
+        </div>
+      </div>
+    </div>
+    <!-- Article 3 -->
+    <div class="col d-flex justify-content-center align-content-center"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="750">
+      <div class="card">
+        <div class="card__corner"></div>
+        <div class="card__img3">
+          <span class="card__span"><i class="bi bi-bookmark-heart"></i> Lingkungan</span>
+        </div>
+        <div class="card-int">
+          <p class="card-int__title">Kebakaran Hutan yang terjadi di Indonesia</p>
+          <p class="excerpt">Beberapa tahun terakhir kebakaran di Indonesia kerap terjadi, hal itu disebabkan dua faktor, yaitu faktor alam dan buatan (manusia).</p>
+          <a href="article3.html"><button class="card-int__button">Show</button></a>
+        </div>
+      </div>
+    </div>
+<!-- End row -->
+  </div>
+</div>
+<!-- End Article Section -->
+
+
+
+<!-- Contact Section -->
+  <div class="container" id="contact">
+    <!-- title -->
+    <div class="row" data-aos="fade-up" data-aos-duration="1000">
+      <div class="col section-title">
+        Contact Me
+      </div>
+    </div>
+    <div class="row bg-contact"  data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="250">
+      <!-- Contact -->
+      <div class="col-md bg-contact">
+        <div class="row">
+          <p class="teks-contact d-flex justify-content-center align-content-center">Contact</p>
+            <ul type="none">
+              <li><i class="bi bi-instagram"></i> Instagram : syafitrirmdhni_</li>
+              <li><i class="bi bi-telephone"></i> Phone : +62 896-2274-0749</li>
+              <li><i class="bi bi-envelope-at"></i> Email : syafitriramadhani26@gmail.com</li>
+              <li><i class="bi bi-geo-alt"></i> Address : Jl. Pinang Baris Gg.Abadi No.10</li>
+            </ul>
+        </div>
+      </div>
+      <!-- Maps -->
+      <div class="col-md-4 d-flex justify-content-center align-content-center mt-4"><div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="2" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Jl. Tahi Bonar Simatupang Gg. Abadi No.10, Sunggal, Kec. Medan Sunggal, Kota Medan, Sumatera Utara 20128&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed-googlemap.com</a></div><style>.mapouter{position:relative;text-align:center;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+      </div>
+      <!-- Form -->
+      <div class="col-md-4 form-comment  d-flex justify-content-center align-content-center">
+        <div class="card">
+          <p class="heading">Form</p>
+          
+            <div class="input-div">
+              <input type="text" class="input" placeholder="Name">
+            </div>
+            <div class="input-div">
+              <input type="text" class="input" placeholder="Email">
+            </div>
+            <div class="input-div">
+              <input class="input" type="text" placeholder="Phone">
+            </div>
+            <div class="input-div">
+              <input class="input" type="text" placeholder="Message">
+            </div>
+            <div class="button-div">
+              <button class="submit">Submit</button>
+            </div>
+        </div>
+      </div>
+      <!-- end row -->
+    </div>
+<!-- end container -->
+  </div>
+<!-- End Contact Section -->
+
+<!-- Footer -->
+<footer>
+  <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(188, 217, 241, 1)" offset="0%"></stop><stop stop-color="rgba(141, 163, 202, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,196L60,187.8C120,180,240,163,360,196C480,229,600,310,720,294C840,278,960,163,1080,98C1200,33,1320,16,1440,49C1560,82,1680,163,1800,236.8C1920,310,2040,376,2160,343C2280,310,2400,180,2520,147C2640,114,2760,180,2880,228.7C3000,278,3120,310,3240,294C3360,278,3480,212,3600,196C3720,180,3840,212,3960,253.2C4080,294,4200,343,4320,351.2C4440,359,4560,327,4680,302.2C4800,278,4920,261,5040,228.7C5160,196,5280,147,5400,155.2C5520,163,5640,229,5760,261.3C5880,294,6000,294,6120,310.3C6240,327,6360,359,6480,310.3C6600,261,6720,131,6840,73.5C6960,16,7080,33,7200,32.7C7320,33,7440,16,7560,81.7C7680,147,7800,294,7920,302.2C8040,310,8160,180,8280,122.5C8400,65,8520,82,8580,89.8L8640,98L8640,490L8580,490C8520,490,8400,490,8280,490C8160,490,8040,490,7920,490C7800,490,7680,490,7560,490C7440,490,7320,490,7200,490C7080,490,6960,490,6840,490C6720,490,6600,490,6480,490C6360,490,6240,490,6120,490C6000,490,5880,490,5760,490C5640,490,5520,490,5400,490C5280,490,5160,490,5040,490C4920,490,4800,490,4680,490C4560,490,4440,490,4320,490C4200,490,4080,490,3960,490C3840,490,3720,490,3600,490C3480,490,3360,490,3240,490C3120,490,3000,490,2880,490C2760,490,2640,490,2520,490C2400,490,2280,490,2160,490C2040,490,1920,490,1800,490C1680,490,1560,490,1440,490C1320,490,1200,490,1080,490C960,490,840,490,720,490C600,490,480,490,360,490C240,490,120,490,60,490L0,490Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 127.5, 127.5, 1)" offset="0%"></stop><stop stop-color="rgba(244, 186, 186, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)" d="M0,343L60,285.8C120,229,240,114,360,130.7C480,147,600,294,720,318.5C840,343,960,245,1080,179.7C1200,114,1320,82,1440,73.5C1560,65,1680,82,1800,81.7C1920,82,2040,65,2160,81.7C2280,98,2400,147,2520,163.3C2640,180,2760,163,2880,130.7C3000,98,3120,49,3240,98C3360,147,3480,294,3600,351.2C3720,408,3840,376,3960,302.2C4080,229,4200,114,4320,106.2C4440,98,4560,196,4680,253.2C4800,310,4920,327,5040,326.7C5160,327,5280,310,5400,277.7C5520,245,5640,196,5760,204.2C5880,212,6000,278,6120,302.2C6240,327,6360,310,6480,318.5C6600,327,6720,359,6840,351.2C6960,343,7080,294,7200,285.8C7320,278,7440,310,7560,269.5C7680,229,7800,114,7920,98C8040,82,8160,163,8280,179.7C8400,196,8520,147,8580,122.5L8640,98L8640,490L8580,490C8520,490,8400,490,8280,490C8160,490,8040,490,7920,490C7800,490,7680,490,7560,490C7440,490,7320,490,7200,490C7080,490,6960,490,6840,490C6720,490,6600,490,6480,490C6360,490,6240,490,6120,490C6000,490,5880,490,5760,490C5640,490,5520,490,5400,490C5280,490,5160,490,5040,490C4920,490,4800,490,4680,490C4560,490,4440,490,4320,490C4200,490,4080,490,3960,490C3840,490,3720,490,3600,490C3480,490,3360,490,3240,490C3120,490,3000,490,2880,490C2760,490,2640,490,2520,490C2400,490,2280,490,2160,490C2040,490,1920,490,1800,490C1680,490,1560,490,1440,490C1320,490,1200,490,1080,490C960,490,840,490,720,490C600,490,480,490,360,490C240,490,120,490,60,490L0,490Z"></path></svg>
+</footer>
+<!-- Copyright -->
+<p class="copy">&copy;Copyright 2023 SyafitriRmdhni</p>
+<!-- End Footer -->
+
+
+
+      <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- My JS -->
+    <script src="js/script.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        // duration:2000
+      });
+    </script>
+
+    <!-- Vanillat Tilt -->
+    <script src="js/vanilla-tilt.min.js"></script>
+  </body>
+</html>
+
+
+
+<!-- wave 1 -->
+<!-- <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(188, 217, 241, 1)" offset="0%"></stop><stop stop-color="rgba(141, 163, 202, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,196L60,187.8C120,180,240,163,360,196C480,229,600,310,720,294C840,278,960,163,1080,98C1200,33,1320,16,1440,49C1560,82,1680,163,1800,236.8C1920,310,2040,376,2160,343C2280,310,2400,180,2520,147C2640,114,2760,180,2880,228.7C3000,278,3120,310,3240,294C3360,278,3480,212,3600,196C3720,180,3840,212,3960,253.2C4080,294,4200,343,4320,351.2C4440,359,4560,327,4680,302.2C4800,278,4920,261,5040,228.7C5160,196,5280,147,5400,155.2C5520,163,5640,229,5760,261.3C5880,294,6000,294,6120,310.3C6240,327,6360,359,6480,310.3C6600,261,6720,131,6840,73.5C6960,16,7080,33,7200,32.7C7320,33,7440,16,7560,81.7C7680,147,7800,294,7920,302.2C8040,310,8160,180,8280,122.5C8400,65,8520,82,8580,89.8L8640,98L8640,490L8580,490C8520,490,8400,490,8280,490C8160,490,8040,490,7920,490C7800,490,7680,490,7560,490C7440,490,7320,490,7200,490C7080,490,6960,490,6840,490C6720,490,6600,490,6480,490C6360,490,6240,490,6120,490C6000,490,5880,490,5760,490C5640,490,5520,490,5400,490C5280,490,5160,490,5040,490C4920,490,4800,490,4680,490C4560,490,4440,490,4320,490C4200,490,4080,490,3960,490C3840,490,3720,490,3600,490C3480,490,3360,490,3240,490C3120,490,3000,490,2880,490C2760,490,2640,490,2520,490C2400,490,2280,490,2160,490C2040,490,1920,490,1800,490C1680,490,1560,490,1440,490C1320,490,1200,490,1080,490C960,490,840,490,720,490C600,490,480,490,360,490C240,490,120,490,60,490L0,490Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 127.5, 127.5, 1)" offset="0%"></stop><stop stop-color="rgba(244, 186, 186, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)" d="M0,343L60,285.8C120,229,240,114,360,130.7C480,147,600,294,720,318.5C840,343,960,245,1080,179.7C1200,114,1320,82,1440,73.5C1560,65,1680,82,1800,81.7C1920,82,2040,65,2160,81.7C2280,98,2400,147,2520,163.3C2640,180,2760,163,2880,130.7C3000,98,3120,49,3240,98C3360,147,3480,294,3600,351.2C3720,408,3840,376,3960,302.2C4080,229,4200,114,4320,106.2C4440,98,4560,196,4680,253.2C4800,310,4920,327,5040,326.7C5160,327,5280,310,5400,277.7C5520,245,5640,196,5760,204.2C5880,212,6000,278,6120,302.2C6240,327,6360,310,6480,318.5C6600,327,6720,359,6840,351.2C6960,343,7080,294,7200,285.8C7320,278,7440,310,7560,269.5C7680,229,7800,114,7920,98C8040,82,8160,163,8280,179.7C8400,196,8520,147,8580,122.5L8640,98L8640,490L8580,490C8520,490,8400,490,8280,490C8160,490,8040,490,7920,490C7800,490,7680,490,7560,490C7440,490,7320,490,7200,490C7080,490,6960,490,6840,490C6720,490,6600,490,6480,490C6360,490,6240,490,6120,490C6000,490,5880,490,5760,490C5640,490,5520,490,5400,490C5280,490,5160,490,5040,490C4920,490,4800,490,4680,490C4560,490,4440,490,4320,490C4200,490,4080,490,3960,490C3840,490,3720,490,3600,490C3480,490,3360,490,3240,490C3120,490,3000,490,2880,490C2760,490,2640,490,2520,490C2400,490,2280,490,2160,490C2040,490,1920,490,1800,490C1680,490,1560,490,1440,490C1320,490,1200,490,1080,490C960,490,840,490,720,490C600,490,480,490,360,490C240,490,120,490,60,490L0,490Z"></path></svg>  -->
+
+<!-- wave 2 -->
+  <!-- <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(141, 163, 202, 1)" offset="0%"></stop><stop stop-color="rgba(128.065, 161.644, 221.168, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,49L40,81.7C80,114,160,180,240,204.2C320,229,400,212,480,196C560,180,640,163,720,187.8C800,212,880,278,960,318.5C1040,359,1120,376,1200,351.2C1280,327,1360,261,1440,236.8C1520,212,1600,229,1680,269.5C1760,310,1840,376,1920,392C2000,408,2080,376,2160,318.5C2240,261,2320,180,2400,163.3C2480,147,2560,196,2640,228.7C2720,261,2800,278,2880,261.3C2960,245,3040,196,3120,196C3200,196,3280,245,3360,228.7C3440,212,3520,131,3600,147C3680,163,3760,278,3840,343C3920,408,4000,425,4080,375.7C4160,327,4240,212,4320,138.8C4400,65,4480,33,4560,57.2C4640,82,4720,163,4800,187.8C4880,212,4960,180,5040,196C5120,212,5200,278,5280,302.2C5360,327,5440,310,5520,261.3C5600,212,5680,131,5720,89.8L5760,49L5760,490L5720,490C5680,490,5600,490,5520,490C5440,490,5360,490,5280,490C5200,490,5120,490,5040,490C4960,490,4880,490,4800,490C4720,490,4640,490,4560,490C4480,490,4400,490,4320,490C4240,490,4160,490,4080,490C4000,490,3920,490,3840,490C3760,490,3680,490,3600,490C3520,490,3440,490,3360,490C3280,490,3200,490,3120,490C3040,490,2960,490,2880,490C2800,490,2720,490,2640,490C2560,490,2480,490,2400,490C2320,490,2240,490,2160,490C2080,490,2000,490,1920,490C1840,490,1760,490,1680,490C1600,490,1520,490,1440,490C1360,490,1280,490,1200,490C1120,490,1040,490,960,490C880,490,800,490,720,490C640,490,560,490,480,490C400,490,320,490,240,490C160,490,80,490,40,490L0,490Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(237.106, 190.583, 189.501, 1)" offset="0%"></stop><stop stop-color="rgba(250.767, 155.905, 153.699, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)" d="M0,196L40,196C80,196,160,196,240,171.5C320,147,400,98,480,130.7C560,163,640,278,720,326.7C800,376,880,359,960,326.7C1040,294,1120,245,1200,220.5C1280,196,1360,196,1440,228.7C1520,261,1600,327,1680,310.3C1760,294,1840,196,1920,147C2000,98,2080,98,2160,106.2C2240,114,2320,131,2400,171.5C2480,212,2560,278,2640,310.3C2720,343,2800,343,2880,318.5C2960,294,3040,245,3120,253.2C3200,261,3280,327,3360,294C3440,261,3520,131,3600,65.3C3680,0,3760,0,3840,73.5C3920,147,4000,294,4080,294C4160,294,4240,147,4320,122.5C4400,98,4480,196,4560,228.7C4640,261,4720,229,4800,220.5C4880,212,4960,229,5040,196C5120,163,5200,82,5280,106.2C5360,131,5440,261,5520,318.5C5600,376,5680,359,5720,351.2L5760,343L5760,490L5720,490C5680,490,5600,490,5520,490C5440,490,5360,490,5280,490C5200,490,5120,490,5040,490C4960,490,4880,490,4800,490C4720,490,4640,490,4560,490C4480,490,4400,490,4320,490C4240,490,4160,490,4080,490C4000,490,3920,490,3840,490C3760,490,3680,490,3600,490C3520,490,3440,490,3360,490C3280,490,3200,490,3120,490C3040,490,2960,490,2880,490C2800,490,2720,490,2640,490C2560,490,2480,490,2400,490C2320,490,2240,490,2160,490C2080,490,2000,490,1920,490C1840,490,1760,490,1680,490C1600,490,1520,490,1440,490C1360,490,1280,490,1200,490C1120,490,1040,490,960,490C880,490,800,490,720,490C640,490,560,490,480,490C400,490,320,490,240,490C160,490,80,490,40,490L0,490Z"></path></svg> -->
