@@ -56,7 +56,7 @@
 <!-- Heroes Section -->
 <div class="container heroes">
   <div class="row">
-    <div class="col-md-6 d-flex align-content-center justify-content-center" style="margin-bottom: 1rem;" data-aos="fade-up-right" data-aos-duration="2000">
+    <div class="col-md-6 d-flex align-content-center justify-content-center" style="margin-bottom: 1rem;" data-aos="fade-up-right" data-aos-duration="1000">
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -96,14 +96,14 @@
         </button>
       </div>
     </div>
-    <div class="col-md-6 desc m-auto" data-aos="fade-up-left" data-aos-duration="2000">
+    <div class="col-md-6 desc m-auto" data-aos="fade-up-left" data-aos-duration="1000">
       <h1><b>Welcome to this Website!</b></h1>
         <p>Ini merupakan website yang berisi foto dan beberapa informasi mengenai <b>Syafitri Ramadhani.</b> Setelah membaca keseluruhan website ini anda akan mengenal saya lebih baik. 
         Ayo mengenal lebih dalam siapa itu <b>Syafitri Ramadhani.</b>
         </p>
         <div class="d-flex justify-content-center" data-aos="fade-left" data-aos-duration="3000">
           <a href="#about" class="btn btn-more" onclick="hello()">Let's Go!!</a> 
-          <!-- mau buat js alert di tombol lets go -->
+          
         </div>
     </div>
   </div>
@@ -114,22 +114,22 @@
 <section id="about" class="container">
   <div class="row">
     <!-- About Title -->
-    <div class="col section-title" data-aos="fade-up" data-aos-duration="1000">About Me</div>
+    <div class="col section-title" data-aos="fade-up" data-aos-duration="700">About Me</div>
   </div>
   <!-- introduction -->
-  <div class="row bg-pastel-blue" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="250">
+  <div class="row bg-pastel-blue" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="250">
     <div class="col-md-8">
       <h5><b>Introduction</b></h5>
-    <p style="text-indent: 2rem; text-align: justify;">
+    <p style="text-indent: 2rem; text-align: justify; padding-right: 1rem;">
       Halo, nama saya Syafitri Ramadhani. Saya adalah seorang pecinta seni yang juga memiliki ketertarikan dalam teknologi. Saya lahir dan besar dalam keluarga yang hangat, dan saya percaya bahwa nilai-nilai keluarga sangat penting dalam hidup. Saya senang melukis, bernyanyi, dan eksplorasi dalam dunia pemrograman. Pendidikan dan pengembangan diri adalah prioritas saya, dan saya percaya bahwa dengan semangat dan kerja keras, kita bisa mencapai apa pun yang kita inginkan dalam hidup. Terima kasih telah mengenal saya!
     </p>
     </div>
-    <div class="col d-flex justify-content-center align-content-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="750">
+    <div class="col d-flex justify-content-center align-content-center" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="750">
       <img src="/img/Pic-profilCut.png" alt="" class="img-thumbnail w-50 rounded-circle m-3 shadow" data-tilt>
     </div>
   </div>
   <!-- Experience and Skill -->
-  <div class="row bg-pastel-pink" data-aos="zoom-in" data-aos-duration="1000">
+  <div class="row bg-pastel-pink" data-aos="zoom-in" data-aos-duration="700">
     <h5><b>Experience and Skill</b></h5>
     <!-- Experience -->
     <div class="col-md-8">
@@ -146,7 +146,7 @@
       </ul>
     </div>
     <!-- Skill -->
-    <div class="col-md d-flex justify-content-center align-content-center" data-aos="flip-left" data-aos-delay="800" data-aos-duration="1000">
+    <div class="col-md d-flex justify-content-center align-content-center" data-aos="flip-left" data-aos-delay="500" data-aos-duration="700">
       <div class="card">
         <div class="header">My Skills</div>
         <div class="body">
@@ -292,11 +292,11 @@
 <!-- End Services Section -->
 
 <!-- Gallery Section -->
-  <div class="container" id="gallery">
+  <section class="container" id="gallery">
     <div class="col section-title" data-aos="fade-up" data-aos-duration="1000">Gallery</div>
     <!-- Filter Buttons -->
     <div class="filter_buttons" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-      <button class="active" data-name="all">Show all</button>
+      <button class="aktif" data-name="all">Show all</button>
       <button data-name="flower">Flower</button>
       <button data-name="lamp">Lamp</button>
       <button data-name="sky">Sky</button>
@@ -307,7 +307,7 @@
     <div class="filterable_cards" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
       <!-- pic1 -->
       <div class="card" data-name="flower">
-        <img src="img/Pic-flower (1).jpg" alt="">
+        <img src="img/Pic-flower (1).jpg" alt="flower">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Bunga Kamboja Bali</h6>
         <p class="card-text">09 June 2021</p>
@@ -315,7 +315,7 @@
       </div>
       <!-- pic2 -->
       <div class="card" data-name="sunset">
-        <img src="img/Pic-sunset (1).jpg" alt="">
+        <img src="img/Pic-sunset (1).jpg" alt="sunset">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Pelabuhan Perlis</h6>
         <p class="card-text">02 August 2021</p>
@@ -323,7 +323,7 @@
       </div>
       <!-- pic3 --> 
       <div class="card" data-name="flower">
-        <img src="img/Pic-flower (5).jpg" alt="">
+        <img src="img/Pic-flower (5).jpg" alt="flower">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Bunga Amarilis Merah</h6>
         <p class="card-text" >30 December 2018</p>
@@ -331,7 +331,7 @@
       </div>
       <!-- pic4 -->
       <div class="card" data-name="view">
-        <img src="img/Pic-view (8).jpeg" alt="">
+        <img src="img/Pic-view (8).jpeg" alt="view">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title" style="text-align: center;">Simarjarunjung Hound Sky</h6>
         <p class="card-text">27 June 2021</p>
@@ -339,7 +339,7 @@
       </div>
       <!-- pic5 -->
       <div class="card" data-name="sky">
-        <img src="img/Pic-sky (3).jpeg" alt="">
+        <img src="img/Pic-sky (3).jpeg" alt="sky">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Wavy Cloud</h6>
         <p class="card-text">17 September 2023</p>
@@ -347,7 +347,7 @@
       </div>
       <!-- pic6 -->
       <div class="card" data-name="lamp">
-        <img src="img/Pic-lamp (1).jpeg" alt="">
+        <img src="img/Pic-lamp (1).jpeg" alt="lamp">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Amor Steak</h6>
         <p class="card-text">15 July 2022</p>
@@ -355,7 +355,7 @@
       </div>
       <!-- pic7 -->
       <div class="card" data-name="sunset">
-        <img src="img/Pic-sunset (2).jpeg" alt="">
+        <img src="img/Pic-sunset (2).jpeg" alt="sunset">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Langit Senja Univ. Battuta</h6>
         <p class="card-text">16 September 2023</p>
@@ -363,7 +363,7 @@
       </div>
       <!-- pic8 -->
       <div class="card" data-name="view">
-        <img src="img/Pic-view (4).jpeg" alt="">
+        <img src="img/Pic-view (4).jpeg" alt="view">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">View Kaki Gunung Sinabung</h6>
         <p class="card-text">26 December 2021</p>
@@ -371,7 +371,7 @@
       </div>
       <!-- pic9 -->
       <div class="card" data-name="lamp">
-        <img src="img/Pic-lamp (2).jpeg" alt="">
+        <img src="img/Pic-lamp (2).jpeg" alt="lamp">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Kesawan</h6>
         <p class="card-text">28 January 2023</p>
@@ -379,7 +379,7 @@
       </div>
       <!-- pic10 -->
       <div class="card" data-name="flower">
-        <img src="img/Pic-flower (2).jpg" alt="">
+        <img src="img/Pic-flower (2).jpg" alt="flower">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Bunga Bakung Lele</h6>
         <p class="card-text">06 June 2022</p>
@@ -387,7 +387,7 @@
       </div>
       <!-- pic11 -->
       <div class="card" data-name="view">
-        <img src="img/Pic-view (1).jpg" alt="">
+        <img src="img/Pic-view (1).jpg" alt="view">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Taman USU</h6>
         <p class="card-text">20 February 2020</p>
@@ -395,7 +395,7 @@
       </div>
       <!-- pic12 -->
       <div class="card" data-name="sky">
-        <img src="img/Pic-sky (1).jpeg" alt="">
+        <img src="img/Pic-sky (1).jpeg" alt="sky">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Langit Tangkahan Durian</h6>
         <p class="card-text">26 March 2023</p>
@@ -403,7 +403,7 @@
       </div>
       <!-- pic13 -->
       <div class="card" data-name="flower">
-        <img src="img/Pic-flower (10).jpg" alt="">
+        <img src="img/Pic-flower (10).jpg" alt="flower">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Bunga Bakung Lele &lpar;2&rpar;</h6>
         <p class="card-text">08 June 2022</p>
@@ -411,7 +411,7 @@
       </div>
       <!-- pic14 -->
       <div class="card" data-name="sunset">
-        <img src="img/Pic-sunset (3).jpeg" alt="">
+        <img src="img/Pic-sunset (3).jpeg" alt="sunset">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Pelabuhan Perlis dan Nelayan</h6>
         <p class="card-text">02 August 2021</p>
@@ -419,7 +419,7 @@
       </div>
       <!-- pic15 -->
       <div class="card" data-name="sky">
-        <img src="img/Pic-sky (2).jpeg" alt="">
+        <img src="img/Pic-sky (2).jpeg" alt="sky">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Blue Sky</h6>
         <p class="card-text">27 August 2023</p>
@@ -427,7 +427,7 @@
       </div>
       <!-- pic16 -->
       <div class="card" data-name="flower">
-        <img src="img/Pic-flower (7).jpg" alt="">
+        <img src="img/Pic-flower (7).jpg" alt="flower">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Bunga Amarilis Orange</h6>
         <p class="card-text">26 December 2018</p>
@@ -435,7 +435,7 @@
       </div>
       <!-- pic17 -->
       <div class="card" data-name="view">
-        <img src="img/Pic-view (2).jpeg" alt="">
+        <img src="img/Pic-view (2).jpeg" alt="view">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Kafe Keboen Binjai</h6>
         <p class="card-text">31 July 2021</p>
@@ -443,7 +443,7 @@
       </div>
       <!-- pic18 -->
       <div class="card" data-name="sunset">
-        <img src="img/Pic-sunset (4).jpeg" alt="">
+        <img src="img/Pic-sunset (4).jpeg" alt="sunset">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Purple Sky</h6>
         <p class="card-text">13 June 2022</p>
@@ -451,7 +451,7 @@
       </div>
       <!-- pic19 -->
       <div class="card" data-name="view">
-        <img src="img/Pic-view (3).jpeg" alt="">
+        <img src="img/Pic-view (3).jpeg" alt="view">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Pelabuhan Belawan</h6>
         <p class="card-text">01 August 2021</p>
@@ -459,7 +459,7 @@
       </div>
       <!-- pic20 -->
       <div class="card" data-name="flower">
-        <img src="img/Pic-flower (6).jpg" alt="">
+        <img src="img/Pic-flower (6).jpg" alt="flower">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Bunga Zinnia Kuning</h6>
         <p class="card-text">26 December 2018</p>
@@ -467,7 +467,7 @@
       </div>
       <!-- pic21 -->
       <div class="card" data-name="sunset">
-        <img src="img/Pic-sunset (7).jpeg" alt="">
+        <img src="img/Pic-sunset (7).jpeg" alt="sunset">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Lab. Pro.Asta Lt.5 Univ. Battuta</h6>
         <p class="card-text">19 August 2023</p>
@@ -475,7 +475,7 @@
       </div>
       <!-- pic22 -->
       <div class="card" data-name="flower">
-        <img src="img/Pic-flower (3).jpeg" alt="">
+        <img src="img/Pic-flower (3).jpeg" alt="flower">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Bunga Bakung Lele &lpar;3&rpar;</h6>
         <p class="card-text">15 June 2022</p>
@@ -483,7 +483,7 @@
       </div>
       <!-- pic23 -->
       <div class="card" data-name="view">
-        <img src="img/Pic-view (7).jpeg" alt="">
+        <img src="img/Pic-view (7).jpeg" alt="view">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Bukit Indah Simarjarunjung</h6>
         <p class="card-text">27 June 2021</p>
@@ -491,7 +491,7 @@
       </div>
       <!-- pic24 -->
       <div class="card" data-name="view">
-        <img src="img/Pic-view (5).jpeg" alt="">
+        <img src="img/Pic-view (5).jpeg" alt="view">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Kolam Berenang Pantai Cermin</h6>
         <p class="card-text">15 June 2022</p>
@@ -499,7 +499,7 @@
       </div>
       <!-- pic25 -->
       <div class="card" data-name="sky">
-        <img src="img/Pic-sky (4).jpeg" alt="">
+        <img src="img/Pic-sky (4).jpeg" alt="sky">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Jl. Pinang Baris</h6>
         <p class="card-text">06 September 2023</p>
@@ -507,7 +507,7 @@
       </div>
       <!-- pic26 -->
       <div class="card" data-name="flower">
-        <img src="img/Pic-flower (4).jpg" alt="">
+        <img src="img/Pic-flower (4).jpg" alt="flower">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Bunga Mawar Putih</h6>
         <p class="card-text">30 December 2018</p>
@@ -515,7 +515,7 @@
       </div>
       <!-- pic27 -->
       <div class="card" data-name="sunset">
-        <img src="img/Pic-sunset (6).jpeg" alt="">
+        <img src="img/Pic-sunset (6).jpeg" alt="sunset">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Purple Sky &lpar;2&rpar;</h6>
         <p class="card-text">24 March 2019</p>
@@ -523,7 +523,7 @@
       </div>
       <!-- pic28 -->
       <div class="card" data-name="sunset">
-        <img src="img/Pic-sunset (5).jpeg" alt="">
+        <img src="img/Pic-sunset (5).jpeg" alt="sunset">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Senja dirumahku</h6>
         <p class="card-text">13 November 2019</p>
@@ -531,7 +531,7 @@
       </div>
       <!-- pic29 -->
       <div class="card" data-name="view">
-        <img src="img/Pic-view (6).jpeg" alt="">
+        <img src="img/Pic-view (6).jpeg" alt="view">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Kafe Keboen Binjai</h6>
         <p class="card-text">31 July 2021</p>
@@ -539,16 +539,16 @@
       </div>
       <!-- pic30 -->
       <div class="card" data-name="view">
-        <img src="img/Pic-sunset (8).jpg" alt="">
+        <img src="img/Pic-sunset (8).jpg" alt="view">
       <div class="card-body" style="text-align: center;">
         <h6 class="card-title">Lab. Pro.Asta Lt.5 Univ. Battuta</h6>
         <p class="card-text">16 September 2023</p>
       </div>
       </div>
-
+<!-- end filterable cards -->
     </div>
 
-  </div>
+  </section>
 <!-- End Gallery Section -->
 
 <!-- Article Section -->
@@ -674,7 +674,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <!-- My JS -->
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
 
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

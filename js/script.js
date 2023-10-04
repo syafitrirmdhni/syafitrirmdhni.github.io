@@ -13,9 +13,9 @@ const filterableCards = document.querySelectorAll("#gallery .filterable_cards .c
 
 // Define the filterCards 
 const filterCards = e => {
-    document.querySelector(".active").classList.remove("active");
-    e.target.classList.add("active");
-    console.log(e.target);
+    document.querySelector(".aktif").classList.remove("aktif");
+    e.target.classList.add("aktif");
+    // console.log(e.target);
 
     // hide card
     filterableCards.forEach(card => {
@@ -31,8 +31,6 @@ const filterCards = e => {
 // console.log(filterButtons, filterableCards) 
 // memastikan apakah filterButtons dan filterableCards terpanggil
 filterButtons.forEach(button => button.addEventListener("click", filterCards));
-
-
 
 
 
